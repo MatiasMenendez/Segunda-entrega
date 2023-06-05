@@ -19,6 +19,8 @@ router.get('/:pid', async (req,res) => {
     } 
 })
 
+
+
 router.post('/', async (req,res) => {
     const productAdded = await product.addProduct(req.body)
     if (productAdded.status == 'successful') {

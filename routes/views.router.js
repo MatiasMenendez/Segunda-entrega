@@ -21,12 +21,12 @@ router.get('/carts/:cid', async (req,res) => {
     res.render('cart', {layout: 'main', cartId, cartData, cartProducts})
 })
 
-// router.get('/products', async (req,res) => {
-//     productsList = await product.getProducts()
-//     res.render('realTimeProducts', {layout: 'main', productsList})
+ //router.get('/products', async (req,res) => {
+   //  productsList = await product.getProducts()
+ //    res.render('realTimeProducts', {layout: 'main', productsList})
 
     
-// })
+ //})
 
 // router.post('/realtimeproducts', async (req,res) => {
 //     productsList = await product.getProducts()
